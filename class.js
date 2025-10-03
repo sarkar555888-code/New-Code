@@ -136,8 +136,19 @@ Print each element of an array
     }
 
 
-
-
+ const fun100 = (a,b,x,y,z)=>{
+    var1 = a+b;
+    console.log(var1);
+    var10 = var1 - x;
+    console.log(var10);
+    var100 = var10*y;
+    console.log(var100);
+    var1000 = var100/z;
+    console.log(var1000);
+    
+    
+ }
+fun100(100,100,50,10,10);
 
 
 
