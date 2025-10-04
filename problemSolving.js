@@ -1,3 +1,19 @@
+//problem 1 : check Prime Number -- write a function that takes a number and uses a for loop and if-else to check if it's a prime number ( divisible only by 1 and itself).
+
+    function primeFunction(num) {
+        if (num < 2) {
+            return false;
+        }
+        for (let i = 2; i < num; i++) {
+           if (num % i === 0) {
+                return false;    
+            }
+
+        }
+        return true;
+    }
+    console.log(primeFunction(11));
+
 //Problem 2 : Reverse String -- write a function that reverses a string using a while loop and if-else to handle empty or invalid inputs.
 
         function reversedString(input) {
